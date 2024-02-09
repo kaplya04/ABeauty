@@ -504,7 +504,7 @@ body{
     display: none;
     margin-left: 6%;
     margin-top: 2%;
-    /* border-radius: 30px; */
+    border-radius: 0px;
     background: #F63E62;
 }
 .close {
@@ -680,6 +680,22 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.window-wd {
+    width: 90%;
+    height: 28px;
+    display: none;
+    margin-left: 6%;
+    margin-top: 2%;
+    border-radius: 0px;
+    background: #F63E62;
+}
+.close {
+    font-size: 17px;
+    float: right;
+    margin-right: 1%;
+    margin-top: -1%;
+    cursor: pointer;
 }
 .btn {
     width: 90%;
@@ -907,6 +923,22 @@ body{
     margin-top: 0%;
     margin-left: 28%;
 }
+.window-wd {
+    width: 84%;
+    height: 28px;
+    display: none;
+    margin-left: 6%;
+    margin-top: 2%;
+    border-radius: 0px;
+    background: #F63E62;
+}
+.close {
+    font-size: 17px;
+    float: right;
+    margin-right: 1%;
+    margin-top: -1%;
+    cursor: pointer;
+}
 .text-hw {
     width: 90%;
     height: fit-content;
@@ -924,7 +956,7 @@ body{
     line-height: normal;
 }
 .btn {
-    width: 90%;
+    width: 84%;
     height: 20px;
     margin: 0 auto;
     margin-top: 2%;
@@ -949,7 +981,7 @@ body{
     align-items: baseline;
 }
 .priemishestva {
-    width: 91%;
+    width: 84%;
     height: 120px;
     margin: 0 auto;
     border-radius: 30px;
