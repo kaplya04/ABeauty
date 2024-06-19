@@ -16,3 +16,8 @@ py manage.py runserver
 python manage.py createsuperuser
 
 AestheticBeauty
+
+
+git remote add origin https://github.com/kaplya04/ABeauty.git
+git branch -M main
+git push -u origin main
