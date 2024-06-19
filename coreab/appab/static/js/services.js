@@ -44,6 +44,3 @@ function unblurBackground() {
   document.getElementById("background").style.filter = "none";
   isBlurred = false;
 }
-
-
-

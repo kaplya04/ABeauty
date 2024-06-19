@@ -14,3 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
         topPanel.style.width = event.clientX + skewHack + delta + 'px';
     });
 });
+
+// Сохраняем текущую страницу в sessionStorage при загрузке страницы
+window.onload = function() {
+  sessionStorage.setItem('currentPage', 'profil');
+};
